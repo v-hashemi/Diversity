@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
 	vector<int> cmpL = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 };  // List of (index of) indices that are going to be compared in the comp2p function.
 
 // N: number of samples, m: alternatives, n: voters
-	int N = 10000, m = 5, n = 49;
+	int N = 1000, m = 5, n = 49;
 	if (argc >= 4) { m = atoi(argv[1]); n = atoi(argv[2]); N = atoi(argv[3]);}
 	string folderName, dataFile = string("a153.txt");
 	if (argc == 5) dataFile = string(argv[4]);
